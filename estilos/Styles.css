@@ -7,19 +7,27 @@ ul{
     padding: 0%;
     margin: 0%;
 }
-.contenedorDivs{
-    
-    box-shadow: rgb(240, 96, 96);        
-    
-    
-}
+.contenedorDivs{    
+    box-shadow: rgb(240, 96, 96);     
 
+}
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 8px;      
+}
+button{
+    border: none;
+    padding: 6px;
+    border-radius: 8px;
+    font-weight: bolder;
+    color:white;
+    background-color: rgb(84, 212, 200);
     
-    
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(181, 71, 255);
     
 }
