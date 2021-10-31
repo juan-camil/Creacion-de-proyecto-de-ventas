@@ -1,0 +1,15 @@
+.contenedorDivs{
+    display: flex;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 8px;
+    
+    height: 500px;
+    
+    
+    justify-content: space-between;
+    
+    align-items: center;
+   
+
+}
