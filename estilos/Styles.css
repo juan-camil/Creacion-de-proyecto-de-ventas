@@ -1,15 +1,25 @@
+body{
+    margin: 0%;
+    
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
 .contenedorDivs{
+    
+    box-shadow: rgb(240, 96, 96);        
+    
+    
+}
+
+
+.navbar{
     display: flex;
-    border: 1px solid red;
-    margin: 10px;
+    justify-content: space-between;
     padding: 8px;
     
-    height: 500px;
     
     
-    justify-content: space-between;
-    
-    align-items: center;
-   
-
 }
