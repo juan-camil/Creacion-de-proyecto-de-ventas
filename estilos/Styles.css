@@ -23,7 +23,7 @@ button{
     border-radius: 8px;
     font-weight: bolder;
     color:white;
-    background-color: rgb(84, 212, 200);
+    background-color: rgb(65, 184, 172);
     
 }
 button:hover{
@@ -31,3 +31,20 @@ button:hover{
     background-color: rgb(181, 71, 255);
     
 }
+input {
+    outline: none;
+    border: none;
+}
+
+.busqueda{
+    background-color: white;
+    border:1px solid gray;
+    padding: 6px; 
+    border-radius: 8px;
+}
+.busqueda:focus-within{
+    border: 1px solid rgb(80, 80, 247);
+   
+}
+
+
