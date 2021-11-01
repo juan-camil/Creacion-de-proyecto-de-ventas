@@ -8,14 +8,20 @@ ul{
     margin: 0%;
 }
 .contenedorDivs{    
-    box-shadow: rgb(240, 96, 96);     
+    box-shadow: rgb(240, 96, 96);    
+    background-color: rgb(204, 204, 204); 
 
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding: 8px;      
+    padding: 8px;  
+}    
+    
+.navbar>li{
+    display: flex;
+    align-items: center;
 }
 button{
     border: none;
@@ -41,10 +47,22 @@ input {
     border:1px solid gray;
     padding: 6px; 
     border-radius: 8px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
 }
 .busqueda:focus-within{
     border: 1px solid rgb(80, 80, 247);
+    cursor: pointer;
    
+}
+.iconobusqueda:hover{
+    color: blue;
+    
+}
+
+.logo{
+    height: 32px;
 }
 
 
